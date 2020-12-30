@@ -1,9 +1,16 @@
 #include <Arduino.h>
+#include <calculator.h>
 
-void setup() {
+Calculator calculator;
+
+void setup()
+{
   // put your setup code here, to run once:
+  calculator.add(1, 2);
+  calculator.minus(2, 1);
 }
 
-void loop() {
+void loop()
+{
   // put your main code here, to run repeatedly:
 }
